@@ -31,7 +31,6 @@ p.one {
 
 p.two {
   float: left;
-  
   width: 30%;
   margin: 10px;
   border: 2px;
@@ -40,7 +39,6 @@ p.two {
 
 p.three {
   float: left;
-
   width: 30%;
   margin: 10px;
   border: 2px;
@@ -62,7 +60,6 @@ p.four {
   margin: 5px;
   border: 2px;
   padding: 2px;
-
 }
 
 .five p {
@@ -75,7 +72,6 @@ p.four {
   margin: 5px;
   border: 2px;
   padding: 2px;
-
 }
 
 .six p {
@@ -91,20 +87,23 @@ h2 {
  font-size: 40px;
 }
 
-h3 {
+#day {
+  width: 100%;
+}
 
-
+#hours {
+  width: 100%;
 }
 
 .form-group {
   width: 50%;
 }
 
-body {
-
-
-}
 #present {
+  display: none;
+}
+
+#output {
   display: none;
 }
 
@@ -112,17 +111,3 @@ span {
   font-weight: bold;
 }
 
-#output {
-  display: none;
-}
-
-
-
-#day {
-  width: 100%;
-}
-
-#hours {
-
-  width: 100%;
-}
