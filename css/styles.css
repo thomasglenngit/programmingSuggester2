@@ -112,6 +112,9 @@ body {
 
 
 }
+#present {
+  display: none;
+}
 
 #outputA {
   
