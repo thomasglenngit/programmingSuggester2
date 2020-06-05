@@ -73,13 +73,21 @@ p.five {
 
 }
 
+p.six {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  border: 2px;
+  padding: 2px;
+
+}
+
 
 h1 {
 
 }
 
 h2 {
-
 
 }
 
