@@ -1,9 +1,9 @@
 // this is back-end logic:
 
-// let add = function(remote, city, aid, salary, hours) {
-//   return remote + city + aid + salary + hours
+let add = function(remote, city, aid, salary, hours) {
+  return remote + city + aid + salary + hours
 
-// }
+}
     // this is front-end, user-interface code:
 $(document).ready(function() {
   $("#profile").submit(function(event) {
@@ -21,22 +21,28 @@ $(document).ready(function() {
    
     $("#present").show();
 
-    const remote = $("#remote").val();
-    const city = $("#city").val();
-    const aid = $("#aid").val();
-    const salary = $("#salary").val();
+    const remote = parseInt($("#remote").val());
+    const city = parseInt($("#city").val());
+    const aid = parseInt($("#aid").val());
+    const salary = parseInt($("#salary").val());
     // let day = Date.parse("July 4, 2020");
     const hours = parseInt($("#hours").val());
   
     console.log("for the variables");
 
-    let total = (remote, city, aid, salary, hours);
+    let total = add(remote, city, aid, salary, hours);
 
-    if (hours <= 30) {
+    if (total > 0 && total <= 30) {
       let result = "Swift";
-      $("#output").text(result);
+      $("#output").text(result); 
+    } else if (total >= 31 && total <=35) {
+      let result = "PeopleSoft/SQL/Python";
+      $("#output").text(result); 
+    } else if (total >= 36 && total <= 40) {
+        let result = "JavaScript"
+        $("#output").text(result);
     } else  {
-      let result = "SQL/Python";
+      let result = "C#";
       $("#output").text(result);
     }
 
