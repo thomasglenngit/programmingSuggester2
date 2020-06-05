@@ -64,7 +64,7 @@ p.four {
   padding: 2px;
 }
 
-p.five {
+.five {
   float: left;
   width: 30%;
   margin: 10px;
@@ -73,7 +73,7 @@ p.five {
 
 }
 
-p.six {
+.six {
   float: left;
   width: 30%;
   margin: 10px;
@@ -108,4 +108,13 @@ body {
 #output {
   display: none;
 
+}
+
+#day {
+  width: 50%;
+}
+
+#hours {
+
+  width: 50%;
 }
