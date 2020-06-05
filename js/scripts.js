@@ -14,46 +14,38 @@ $(document).ready(function() {
 
     const userInfo = text(firstName, lastName, email, mobile);
 
-    $("#output").text(userInfo);
+    $("#outputA").text(userInfo);
 
 
 
     // this is back-end code:
-    const remote = $("#remote").val();
-    const city = $("#city").val();
-    const aid = $("#aid").val();
-    const salary = $("#salary").val();
-    const day = $("#day").val();
-    const hours = $("#hours").val();
-  })
+    const remote = parseInt($("#remote").val());
+    const city = parseInt($("#city").val());
+    const aid = parseInt($("#aid").val());
+    const salary = parseInt($("#salary").val());
+    // let day = Date.parse("July 4, 2020");
+    const hours = parseInt($("#hours").val());
+
+    let total = add(remote, city, aid, salary, hours);
+  
+
+    if (total > 0 && total <= 30) {
+      $("#outputB").text("Swift");
+    } else if (total >=31 && total <= 35) {
+      $("#outputB").text("SQL/Python");
+    } else if (total >= 36 && total <= 40) {
+      $("#outputB").text("JavaScript");
+    } else (total >= 40) 
+    $("#outputB").text("C#");
+    
+  });
+});
+
+
+
+{/* <script>
+function myFunction() {
+  var d = Date.parse("March 21, 2012");
+  document.getElementById("demo").innerHTML = d;
 }
-)
-
-
-// $(document).ready(function() {
-//   $("#profile").submit(function(event) {
-//     const gender = $("#gender").val();
-//     const attribute = $("#attribute").val();
-
-
-
-//     if (gender === 'male' && attribute === 'athletic') {
-//       let choice = "Arnold Schwartzenegger";
-//       $(".choice").text(choice);
-//     } else if (gender === 'male' && attribute === 'caring') {
-//       let choice = "Brad Pitt";
-//       $(".choice").text(choice);
-//     } else if (gender === 'male' && attribute === 'rich') {
-//       let choice = "Bill Gates";
-//       $(".choice").text(choice);
-//     } else if (gender === 'female' && attribute === 'intelligent') {
-//       let choice = "Madeleine Albright";
-//       $(".choice").text(choice);
-//     }
-
-//     $("#date").text();
-//     event.preventDefault();
-
-//   });
-// });
-
+</script> */

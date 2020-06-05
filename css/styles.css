@@ -113,9 +113,13 @@ body {
 
 }
 
-#output {
+#outputA {
   display: none;
 
+}
+
+#outputB {
+  display: none;
 }
 
 #day {
