@@ -6,7 +6,7 @@ let add = function(remote, city, aid, salary, hours) {
 }
     // this is front-end, user-interface code:
 $(document).ready(function() {
-  $("#profile").submit(function(event) {
+  $("form#profile").submit(function(event) {
     event.preventDefault();
     const firstName = $("input#firstName").val();
     const lastName = $("input#lastName").val();

@@ -11,19 +11,15 @@
   <title>Programming Suggester 2</title>
 </head>
 
+  
 
-  
-  <body>
-    <div class="hero-image">
-      <div class="hero-text">
-        <h1>Break into Tech</h1>
-        <h2>Find your path</p>
-  
-      </div>
+<body>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Break into Tech</h1>
+      <h2>Find your path</p>
     </div>
-    <br>
-    <br>
-    <br>
+  </div>
   <div class="container">
     <form id="profile">
       <h2>Please enter your personal information below:</h2>
@@ -47,66 +43,65 @@
         <input id="mobile" class="form-control" type="text">
       </div>
 
-    <div class="row">
-      <p class="one" class="col-md-2">
-        Understanding that in today's political and social climate, remote jobs are are disirable for employees. However, many businesses require their employees to be onsite. Do you prefer remote or office working?
-        <select class="form-control" id="remote">
-          <option value="1">Remote</option>
-          <option value="2">Office</option>
+      <div class="row">
+        <p class="one" class="col-md-2">
+          Do you prefer remote or office working?
+          <select class="form-control" id="remote">
+            <option value="1">Remote</option>
+            <option value="2">Office</option>
+          </select>
+        </p>
 
-        </select>
-      </p>
+        <p class="two" class="col-md-2">
+          Given the opportunity, in which city would you prefer to work?
+          <select class="form-control" id="city">
+            <option value="4">San Francisco</option>
+            <option value="3">Seattle</option>
+            <option value="2">Portland</option>
+            <option value="1">Vancouver</option>
+          </select>
+        </p>
 
-      <p class="two" class="col-md-2">
-        Many programming jobs are on the North American West Coast. Given the opportunity, in which city would you prefer to work?
-        <select class="form-control" id="city">
-          <option value="4">San Francisco</option>
-          <option value="3">Seattle</option>
-          <option value="2">Portland</option>
-          <option value="1">Vancouver</option>
-        </select>
-      </p>
-
-      <p class="three" class="col-md-2">
-        To enroll in a bootcamp or computer science/software engineering program, would you require financial
-        assistance?
-        <select class="form-control" id="aid">
-          <option value="1">Yes</option>
-          <option value="2">No</option>
-        </select>
-      </p>
-    </div>
-    <div class="row">
-      <p class="four" class="col-md-2">
-        Most starting salaries, depending on programming language proficiency and employer may vary greatly. What do you envision for your beginning yearly salary?
-        <select class="form-control" id="salary">
-          <option value="1">60K</option>
-          <option value="2">80K</option>
-          <option value="3">100K+</option>
-        </select>
-      </p>
-
-      <div class="five">
-        <p class="five" class="col-md-2">
-          What is the soonest date that you could start a programming bootcamp?
-          <div class="form-group">
-            <label for="day">Date:</label>
-            <input id="day" class="form-control" type="date">
-          </div>
+        <p class="three" class="col-md-2">
+          To enroll in a bootcamp or computer science/software engineering program, would you require financial
+          assistance?
+          <select class="form-control" id="aid">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+          </select>
         </p>
       </div>
 
-      <div class="six">
-        <p class="six" class="col-md-2">
-          Employers vary in the hourly requirements of their coders. What is the minimum number of hours per week could you dedicate to programming?
-          <div class="form-group">
-            <label for="hours">Hours:</label>
-            <input id="hours" class="form-control" type="text">
-          </div>
+      <div class="row">
+        <p class="four" class="col-md-2">
+          Once you start to work, what do you envision for your yearly salary?
+          <select class="form-control" id="salary">
+            <option value="1">60K</option>
+            <option value="2">80K</option>
+            <option value="3">100K+</option>
+          </select>
         </p>
-      </div>
-    </div>
 
+        <div class="five">
+          <p class="five" class="col-md-2">
+            What is the soonest date that you could start a programming bootcamp?
+            <div class="form-group">
+              <label for="day">Date:</label>
+              <input id="day" class="form-control" type="date">
+            </div>
+          </p>
+        </div>
+
+        <div class="six">
+          <p class="six" class="col-md-2">
+            How many hours a week could you dedicate to programming?
+            <div class="form-group">
+              <label for="hours">Hours:</label>
+              <input id="hours" class="form-control" type="text">
+            </div>
+          </p>
+        </div>
+      </div>
       <div>
         <p>If all your information is correct
           <button type="submit" class="btn-info">PRESS HERE</button> to see your results.</p>
@@ -116,14 +111,12 @@
         <br>
       </div>
     </form>
-    <div id="present">Thanks, for your interest, <span class="firstName"></span><span class="lastName"></span>. We have determined your first language should be: <span id="output"></span>. May we contact you at your email address: <span class="email"></span> or your mobile number: <span class="mobile"></span>?
 
-      <p>Many thanks,</p>
-      <p>WPA (the Web Partners Association)</p>
+    <div id="present">Thanks, for your interest, <span class="firstName"></span> <span class="lastName"></span>. We have determined your first language should be: <span id="output"></span>. May we contact you at your email address: <span class="email"></span>, or your mobile number: <span class="mobile"></span>?
+
+        <p>Many thanks,</p>
+        <p>WPA (the Web Partners Association)</p>
     </div>
-    <!-- <div id="output">
-
-    </div> -->
    
   </div>
 </body>

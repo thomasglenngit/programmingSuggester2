@@ -1,51 +1,25 @@
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.39)), url("https://ichef.bbci.co.uk/images/ic/1376x774/p05r0kns.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://ichef.bbci.co.uk/images/ic/1376x774/p05r0kns.jpg");
   height: 500px;
-  width: 109%;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 
+
 }
 
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
-  font-size: large;
-  top: 50%;
+  top: 40%;
   left: 40%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: sans-serif;
 }
 
 
-h1 {
-  font-size: 100px;
-  font-family: sans-serif;
- }
- 
- h2 {
-  font-size: 50px;
-  font-family: sans-serif;
- }
- 
- h3 {
- 
- 
- }
-
-button {
-  /* text-align: left;
-  position: absolute;
-  top: 80%;
-  left: 10%;
-  transform: translate(-50%, -50%); */
-  color: rgb(98, 0, 255);
-  /* float: right; */
-}
 p.one {
   float: left;
   width: 30%;
@@ -98,7 +72,7 @@ p.four {
 .six {
   float: left;
   width: 30%;
-  margin: 6px;
+  margin: 5px;
   border: 2px;
   padding: 2px;
 
@@ -109,14 +83,26 @@ p.four {
 }
 
 
+h1 {
+ font-size: 80px;
+}
+
+h2 {
+ font-size: 40px;
+}
+
+h3 {
+
+
+}
 
 .form-group {
   width: 50%;
 }
 
 body {
-  font-size: large;
-  font-family: Arial, Helvetica, sans-serif
+
+
 }
 #present {
   display: none;
