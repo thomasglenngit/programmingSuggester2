@@ -116,6 +116,10 @@ body {
   display: none;
 }
 
+span {
+  font-weight: bold;
+}
+
 #outputA {
   
 
