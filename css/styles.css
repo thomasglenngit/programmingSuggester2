@@ -73,6 +73,10 @@ p.four {
 
 }
 
+.five p {
+  width: fit-content;
+}
+
 .six {
   float: left;
   width: 30%;
@@ -80,6 +84,10 @@ p.four {
   border: 2px;
   padding: 2px;
 
+}
+
+.six p {
+  width: fit-content;
 }
 
 
@@ -111,10 +119,10 @@ body {
 }
 
 #day {
-  width: 50%;
+  width: 100%;
 }
 
 #hours {
 
-  width: 50%;
+  width: 100%;
 }
