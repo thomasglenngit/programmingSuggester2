@@ -1,3 +1,34 @@
+
+// this is front-end, user-interface code:
+$(document).ready(function() {
+  $("#profile").submit(function(event) {
+    const firstName = $("input#firstName").val();
+    const lastName = $("input#lastName").val();
+    const email = $("input#email").val();
+    const mobile = $("input#mobile").val();
+
+    $(".firstName").text(firstName);
+    $(".lastName").text(lastName);
+    $(".email").text(email);
+    $(".mobile").text(mobile);
+
+    const userInfo = text(firstName, lastName, email, mobile);
+
+    $("#output").text(userInfo);
+
+
+
+    const remote = 
+    const city
+    const aid
+    const salary
+    const date
+    const hours
+  })
+}
+)
+
+
 $(document).ready(function() {
   $("#profile").submit(function(event) {
     const gender = $("#gender").val();
