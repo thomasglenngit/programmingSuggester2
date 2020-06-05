@@ -120,14 +120,11 @@ span {
   font-weight: bold;
 }
 
-#outputA {
-  
+/* #output {
+  display: none;
+} */
 
-}
 
-#outputB {
- 
-}
 
 #day {
   width: 100%;
