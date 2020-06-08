@@ -14,11 +14,6 @@ The user is asked to provide their name and contact information, as well as thei
 
 ## Setup/Installation Requirements
 
-| Step # |    |  Cool |
-|----------|:-------------:|------:|
-| 1|   | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
 
 * Clone document https://github.com/thomasglenngit/programmingSuggester2
 * Open document from desktop
