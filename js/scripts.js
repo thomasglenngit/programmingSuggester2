@@ -17,8 +17,6 @@ $(document).ready(function() {
     $(".email").text(email);
     $(".mobile").text(mobile);
 
-    $("#present").show();
-    
 
     const remote = parseInt($("#remote").val());
     const city = parseInt($("#city").val());
@@ -38,6 +36,9 @@ $(document).ready(function() {
     } else  {
       $("#output").text("C#");
     }
+
+    $("#present").show();
+    
   });
 });
 
