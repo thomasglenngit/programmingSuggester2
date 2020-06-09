@@ -11,18 +11,20 @@ $(document).ready(function() {
     const lastName = $("input#lastName").val();
     const email = $("input#email").val();
     const mobile = $("input#mobile").val();
+    const day = $("input#day").val();
 
     $(".firstName").text(firstName);
     $(".lastName").text(lastName);
     $(".email").text(email);
     $(".mobile").text(mobile);
+    $(".day").text(day);
 
 
     const remote = parseInt($("#remote").val());
     const city = parseInt($("#city").val());
     const aid = parseInt($("#aid").val());
     const salary = parseInt($("#salary").val());
-    // let day = Date.parse("July 4, 2020");
+    
     const hours = parseInt($("#hours").val());
 
     let total = add(remote, city, aid, salary, hours);
@@ -39,6 +41,7 @@ $(document).ready(function() {
 
     $("#present").show();
     $("#output").show();
+    $(".day").show();
     $("form#profile").hide();
 
     console.log();

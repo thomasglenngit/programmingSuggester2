@@ -15,7 +15,7 @@ The user is asked to provide their name and contact information, as well as thei
 ## Setup/Installation Requirements
 
 
-* Clone document https://github.com/thomasglenngit/programmingSuggester2
+* Clone document from the following url: https://github.com/thomasglenngit/programmingSuggester2
 * Open document from desktop
 * Double click, or right click on file called "index.html" to open in your web browser.
 * Enter user information and make selections from the drop-down menus. 
@@ -24,18 +24,14 @@ The user is asked to provide their name and contact information, as well as thei
 
 ## Known Bugs
 
-There are known bugs in this program! Hooray! The first of which is that it doesn't really work. I mean, it used to work at one point, but doesn't anymore. 
-
-This program will return user information back to the user in a preformatted message. But, it will no longer return the necessary computer language to the user. 
-
-This has been very frustrating. I am open to any suggestions and outside help to correct this bug. I am also currently in therapy to manage my emotions surrounding this malfunction. 
+1. The columns style should be the same for each. However, columns five and six must be custom measured because the form inputs are fussy. I'd like to find out how to better adjust them.
 
 ## Support and contact details
 
 I can be contacted at:
 
-thomasgrantglenn@mac.com
-or
+thomasgrantglenn@mac.com; 
+or by mobile:
 415-216-3317
 
 ## Technologies Used
