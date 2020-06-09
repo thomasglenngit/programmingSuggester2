@@ -7,7 +7,6 @@
   background-size: cover;
   position: relative;
 
-
 }
 
 .hero-text {
@@ -87,13 +86,13 @@ h2 {
  font-size: 40px;
 }
 
-#day {
+/* #day {
   width: 100%;
 }
 
 #hours {
   width: 100%;
-}
+} */
 
 .form-group {
   width: 50%;

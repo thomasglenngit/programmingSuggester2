@@ -38,7 +38,9 @@ $(document).ready(function() {
     }
 
     $("#present").show();
-    
+    $("#output").show();
+
+    console.log();
   });
 });
 
