@@ -20,6 +20,7 @@
 
 body {
   font-family: sans-serif;
+  font-size: 15px;
 }
 
 p.one {
@@ -89,22 +90,31 @@ h2 {
  font-size: 40px;
 }
 
-/* #day {
+.underline {
+  text-decoration: underline;
+}
+
+#day {
   width: 100%;
 }
 
 #hours {
   width: 100%;
-} */
-
-.form-group {
-  width: 50%;
 }
+
+/* .form-group {
+  width: 50%;
+} */
 
 #present {
   display: none;
-
+  border: 2px solid blue;
+  border-radius: 20px;
+  margin: 20px;
+  float: left;
+  padding:10px;
 }
+
 
 #output {
   display: none;

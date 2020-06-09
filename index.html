@@ -20,10 +20,13 @@
   </div>
   <div class="container">
     <form id="profile">
-      <h2>The technology industry needs you. We're here to help you find your way.</h2>
+      <h2>The technology industry needs you.</h2>
+        <h2>We're here to help you find your way.</h2>
       <h3>Please enter your information below and press <span>submit</span> to find the right code for you to begin your new career.</h3>
+      <br>
+      <br>
 
-      <h3>Personal Information:</h3>
+      <h3 class="underline">Personal Information:</h3 >
       <div class="form-group">
         <label for="firstName">First Name:</label>
         <input id="firstName" class="form-control" type="text">
@@ -45,7 +48,8 @@
       </div>
       <br>
       <br>
-      <h3>Learning and Career Preferences</h3>
+
+      <h3 class="underline">Learning and Career Preferences:</h3 >
 
       <div class="row">
         <p class="one" class="col-md-2">
@@ -106,6 +110,8 @@
           </p>
         </div>
       </div>
+      <br>
+      <br>
       <div>
         <p>If all your information is correct, press
           <button type="submit" class="btn-info">submit</button> to see your results.</p>
@@ -116,12 +122,25 @@
       </div>
     </form>
 
-    <div id="present">Thanks, for your interest, <span class="firstName"></span> <span class="lastName"></span>. We have
-      determined your first language should be: <span id="output"></span> . One of our volunteers may contact you at your email address:
-      <span class="email"></span>, or your mobile number: <span class="mobile"></span> before <span class="day"></span>.
+    <div id="present">
+      <p>
+        Thanks, for your interest, <span class="firstName"></span> <span class="lastName"></span>.
+      </p>
+      <p>
+        We have determined your first language should be: <span id="output"></span> .
+      </p> 
+      <p>
+        One of our volunteers may contact you at your email address:
+      <span class="email"></span>, 
+      </p>
+      <p>
+        or your mobile number: <span class="mobile"></span> before <span class="day"></span>.
+      </p>
 
       <p>Many thanks,</p>
-      <p>WPA (the Web Partners Association)</p>
+      <p>-WPA (the Web Partners Association)</p>
+      <br>
+      <br>
     </div>
   </div>
 </body>

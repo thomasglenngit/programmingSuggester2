@@ -41,7 +41,7 @@ $(document).ready(function() {
 
     $("#present").show();
     $("#output").show();
-    $(".day").show();
+    // $(".day").show();
     $("form#profile").hide();
 
     console.log();
