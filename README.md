@@ -28,6 +28,8 @@ The user is asked to provide their name and contact information, as well as thei
 
 ## Support and contact details
 
+a link to the Web rendered version of this program can be found at: https://thomasglenngit.io.github.com/programmingSuggester2
+
 I can be contacted at:
 
 thomasgrantglenn@mac.com; 
