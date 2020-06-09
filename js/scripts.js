@@ -39,6 +39,7 @@ $(document).ready(function() {
 
     $("#present").show();
     $("#output").show();
+    $("form#profile").hide();
 
     console.log();
   });
